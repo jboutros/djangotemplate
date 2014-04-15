@@ -1,0 +1,11 @@
+.DS_Store
+*.*~
+*.pyc
+*.db
+*.sqlite
+**/settings/local.py
+/static
+
+# IDE Stuff
+.idea
+atlassian-ide-plugin.xml

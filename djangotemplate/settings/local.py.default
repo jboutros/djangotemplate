@@ -1,0 +1,19 @@
+import sys
+globals().update(vars(sys.modules['djangotemplate.settings']))
+
+# Here you can override the DB settings for the environment
+# prod/staging/dev, etc
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'djangotemplate',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+        },
+}
+
+ENVIRONMENT = "dev"
+
